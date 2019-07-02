@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.video-component{
+    background-image: url('https://loremflickr.com/327/190');
+    background-size: cover;
+    background-position: center;
+    width: 327px;
+    height:190px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.videoTittle .nameVideo, .copyRight{
+    text-transform: uppercase;
+}
+.videoTittle{
+    padding-right: 1.7rem;
+}
+.nameVideo{
+    color: yellow;
+    font-size: 1.5rem;
+}
+.copyRight{
+    color:#fff;
+    font-size: 0.8rem;
+}
